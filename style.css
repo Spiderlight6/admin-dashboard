@@ -95,7 +95,7 @@ main{
     grid-gap: 20px;
     grid-template-columns: 5fr 1fr;
     grid-template-rows: repeat(6, 1fr);
-    background: rgb(163, 13, 13);
+   background-color: #929191;
     grid-column: 2/4;
     grid-row: 2/5;
     padding: 20px;
@@ -113,8 +113,9 @@ main{
 
 
 .cards{
-    border: 2px solid black;
+    box-shadow: 6px 5px hsla(0, 9%, 32%, 0.966);
     padding: 6px;
+    height: 100px;
 }
 
 #announsments{
@@ -123,6 +124,7 @@ main{
     background: #fff;
     font-size: 10px;
     border-radius: 3px;
+    box-shadow: 6px 5px hsla(0, 9%, 32%, 0.966);
 }
 
 #announsments p{
@@ -137,6 +139,7 @@ main{
     grid-row: 4/7;
     padding: 7px;
     border-radius: 4px;
+    box-shadow: 6px 5px hsla(0, 9%, 32%, 0.966);
 }
 #trending img{
     width: 30px;
