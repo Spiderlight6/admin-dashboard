@@ -14,12 +14,59 @@ body{
     grid-template-rows: repeat(4, 1fr);
     height: 100vh;
 }
+
 header{
-    background: rgb(23, 23, 148);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #fff;
     grid-column: 2/4;
     grid-row: 1/1;
+    grid-row-gap: 10px;
+}
+#user-info{
+    display: flex;
+    gap: 10px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-self: end;
+    justify-self: start;
+}
+#buttons{
+    display: flex;
+    gap: 40px;
+    align-self: self-end;
+    justify-self: center;
+    grid-row: 2/3;
+    grid-column: 2/3;
 }
 
+header button{
+    border-radius: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(16, 16, 122);
+    padding: 10px 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+input{
+    background: #000;
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: lime;
+}
+header h4{
+    font-size: 1.4rem;
+}
 sidebar{
     display: flex;
     gap: 20px;
@@ -29,6 +76,7 @@ sidebar{
     grid-row: 1/5;
     text-align: center;
 }
+
 sidebar *{
     color: #fff;
     text-decoration: none;
